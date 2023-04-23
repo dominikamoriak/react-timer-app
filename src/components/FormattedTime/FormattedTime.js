@@ -16,7 +16,7 @@ const FormattedTime = ({ time }) => {
     return `${hours}:${minutes}:${seconds}.${ms}`;
   };
 
-  return <div className={styles.button}>{formatTime(time)}</div>;
+  return <div className={styles.time}>{formatTime(time)}</div>;
 };
 
 export default FormattedTime;
